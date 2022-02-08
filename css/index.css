@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.headerAndInfo {
+  position: fixed;
+  width:1549px;
+}
+div[id="background"] {
+  background-image: linear-gradient(to right, #f1fbfe, #f1fbfe);
+  /* float:left; */
+  /* position: absolute; */
+  /* width: 1549px; */
+}
+div[id="header"] {
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  margin: 0 10px;
+  margin-right: 0;
+  background-image: url(../image/background_2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-bottom: 2px solid rgb(43, 61, 226);
+}
+img[alt="b2"] {
+  float: right;
+}
+div[id="header"]:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div[id="header"] span {
+  color: rgb(43, 61, 226);
+  float: left;
+  padding: 0px 30px 0px 150px;
+  font-size: 35px;
+  font-weight: 700;
+
+  font-style: italic;
+}
+div[id="header"] a {
+  float: left;
+  /* border: 1px solid red; */
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 1.4px 30px;
+  border-radius: 12px 12px 0 0;
+}
+div[id="header"] a:hover {
+  /* color: #fff; */
+  /* background: rgb(43, 61, 226); */
+  background-color: #fff;
+}
+#person_center {
+  float: right;
+  position: relative;
+  left: -200px;
+  background-color: rgb(43, 61, 226);
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  padding: 0 30px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 12px;
+}
+#person_center:hover{
+  background-color: rgb(28, 28, 172);
+}
+img[id="header"] {
+  width: 130px;
+  height: 130px;
+  border-radius: 75px;
+  position: fixed;
+  top: 5px;
+  left: 15px;
+  /* visibility: hidden; */
+}
+div[id="info_home"] {
+  /* border: 1px solid red; */
+  background-color: rgb(43, 61, 226);
+  height: 50px;
+  text-align: center;
+  /* visibility: hidden; */
+}
+div[id="info_home"] span {
+  line-height: 50px;
+  background-color: #fff;
+  font-size: 25px;
+  margin: 0 142px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 25px;
+  color: rgb(43, 61, 226);
+}
+#body {
+  padding-top: 190px;
+}
+#img {
+  margin: 0 auto;
+  width: 1100px;
+}
+#img:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#body img {
+  border-radius: 14px;
+  float: left;
+}
